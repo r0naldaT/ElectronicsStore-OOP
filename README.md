@@ -1,28 +1,22 @@
-# 📱 Electronics Store Management System
+# 🛒 Electronics Store Manager
 
-Dự án quản lý cửa hàng thiết bị điện tử được xây dựng bằng ngôn ngữ **Java**, áp dụng các kiến thức cốt lõi của lập trình hướng đối tượng (OOP).
+Dự án nhỏ luyện tập lập trình hướng đối tượng (OOP) với Java.
 
-## 🚀 Tính năng chính
-- **Quản lý đa hình:** Hỗ trợ nhiều loại sản phẩm khác nhau (Laptop, Smartphone).
-- **Tính toán thuế tự động:** Áp dụng mức thuế riêng biệt cho từng loại sản phẩm nhờ vào *Method Overriding*.
-- **Bộ lọc thông minh:** Tìm kiếm sản phẩm nhanh chóng theo khoảng giá người dùng nhập vào.
-- **Xử lý logic chặt chẽ:** Kiểm tra trùng lặp ID khi thêm mới và xác nhận trạng thái khi xóa sản phẩm.
+## ✨ Tính năng
+- Quản lý danh sách Laptop và Smartphone.
+- Tính thuế đa hình (Laptop 5%, Phone 12%).
+- Lọc sản phẩm theo khoảng giá.
+- Giao diện điều khiển qua Console.
 
-## 🛠 Kiến thức OOP đã áp dụng
-1. **Encapsulation (Đóng gói):** Sử dụng `private`/`protected` và Getter/Setter để bảo vệ dữ liệu.
-2. **Inheritance (Kế thừa):** `Laptop` và `SmartPhone` kế thừa các đặc tính chung từ lớp cha `Product`.
-3. **Polymorphism (Đa hình):** - Quản lý danh sách đối tượng bằng `List<Product>`.
-   - Sử dụng *Dynamic Binding* để tính thuế mà không cần dùng nhiều câu lệnh `if-else`.
-4. **Abstraction (Trừu tượng):** Định nghĩa hành vi nghiệp vụ thông qua `Interface IStoreManager`.
+## 🛠 Kiến thức áp dụng
+- **Inheritance**: Kế thừa từ lớp cha `Product`.
+- **Polymorphism**: Tính thuế linh hoạt không cần `if-else`.
+- **Encapsulation**: Bảo mật dữ liệu với Getter/Setter.
 
+## 🏃 Cách chạy
+1. Mở project bằng IntelliJ hoặc Eclipse.
+2. Chạy file `Main.java`.
+3. Nhập số theo Menu để trải nghiệm.
 
-
-## 📂 Cấu trúc dự án
-- `model/`: Chứa các lớp thực thể dữ liệu (Product, Laptop, SmartPhone).
-- `service/`: Chứa Interface và lớp thực thi logic nghiệp vụ.
-- `app/`: Chứa hàm Main và giao diện điều khiển Console.
-
-## 💻 Cách chạy chương trình
-1. Clone dự án về máy: 
-   ```bash
-   git clone <link-repo-cua-ban>
+---
+*Created with ❤️ by [Tên của bạn]*
