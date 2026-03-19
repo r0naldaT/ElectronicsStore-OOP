@@ -19,4 +19,4 @@ Dự án nhỏ luyện tập lập trình hướng đối tượng (OOP) với J
 3. Nhập số theo Menu để trải nghiệm.
 
 ---
-*Created with ❤️ by [Tên của bạn]*
+*Created with ❤️ by [ronaldat]*
